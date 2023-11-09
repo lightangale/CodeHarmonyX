@@ -5,7 +5,6 @@ def timer():
  time.sleep(5) 
  try:
     for _ in range(4):
-        # Work time
         t = 25 * 60
         while t:
             mins = t // 60
