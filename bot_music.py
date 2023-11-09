@@ -10,7 +10,7 @@ def play_music(song_name):
         pygame.mixer.music.load(song_name)
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
-            pygame.time.Clock().tick(10)  # Adjust the tick value as needed
+            pygame.time.Clock().tick(10)
     except Exception as e:
         print(f"Error playing {song_name}: {e}")
 
