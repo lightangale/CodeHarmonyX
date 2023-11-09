@@ -1,9 +1,8 @@
 import time
 import sys
 def timer():
- # Initial preparation time
  print("Get ready to start working...")
- time.sleep(5)  # 5 seconds preparation time
+ time.sleep(5) 
  try:
     for _ in range(4):
         # Work time
@@ -17,8 +16,7 @@ def timer():
             time.sleep(1)
             t -= 1
 
-        # Break time
-        t = 5 * 60
+            t = 5 * 60
         while t:
             mins = t // 60
             secs = t % 60
@@ -28,7 +26,7 @@ def timer():
             time.sleep(1)
             t -= 1
 
-    # Finished all cycles
+    
     sys.stdout.write("\nAll work cycles completed!\n")
  except KeyboardInterrupt:
     sys.stdout.write("\nTimer stopped.\n")
