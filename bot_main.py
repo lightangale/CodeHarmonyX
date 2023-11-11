@@ -56,7 +56,7 @@ def menu():
             option_num = int(option_num)
             if 1 <= option_num <= 5:
                 if option_num == 5:
-                    quit()  # Call the quit function
+                    quit()  
                     break
                 elif option_num==1:
                     user_command = input("Would you like voice typing? 1)Yes or No\n")
