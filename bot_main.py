@@ -65,9 +65,9 @@ def menu():
                     option[option_num]() 
                 break
             else:
-                print("Please enter a digit between 1-5")
+                print("Please enter a valid range between 1-5")
         else:
-            print("Please enter a valid range between 1-5!")
+            print("Please enter a digit between 1-5!")
 
 if __name__ == "__main__":
     username = input("Enter your username:")
